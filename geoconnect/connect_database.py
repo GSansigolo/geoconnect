@@ -39,7 +39,7 @@ def connect_database( database_name ):
 
 #parse argument
 parser = argparse.ArgumentParser()
-parser.add_argument("database_name", help="publish the given database")
+parser.add_argument("database_name", help="connect the given database")
 args = parser.parse_args()
 
 #connect
